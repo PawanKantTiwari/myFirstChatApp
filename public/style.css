@@ -1,0 +1,190 @@
+* {
+    box-sizing: border-box;
+    outline: none;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.total-window {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    /* min-width: 100vh; */
+    /* min-height: 100vh; */
+    /* overflow: auto; */
+}
+
+.left-window {
+    display: flex;
+    flex-direction: column;
+    /* width: 30%; */
+    min-width: 25%;
+    /* min-height: 100vh; */
+    /* height: 100vh; */
+    overflow: auto;
+    background: #55efc4;
+}
+
+.me {
+    display: flex;
+    flex-direction: column;
+    /* margin: auto; */
+    align-items: center;
+    min-width: 100%;
+    min-height: 20%;
+    justify-content: space-evenly;
+    border-bottom: solid 2px;
+    background: #27ae60;
+}
+
+.user-image {
+    display: flex;
+    min-width: 50%;
+    min-height: 80%;
+    /* margin: auto; */
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+img {
+    display: flex;
+    /* margin: auto; */
+    align-items: center;
+    justify-content: space-evenly;
+    width: 40%;
+    height: 95%;
+    /* min-height: 10%; */
+}
+
+.user-name {
+    display: flex;
+    min-height: 20%;
+    margin: auto;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 100%;
+    font-weight: bold;
+}
+
+.online-list {
+    display: flex;
+    flex-direction: column;
+    min-width: 100%;
+}
+
+.user {
+    display: flex;
+    min-width: 100%;
+    min-height: 20%;
+    /* margin: auto; */
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: solid 1px gray;
+}
+
+.right-window {
+    display: flex;
+    /* margin: auto; */
+    align-items: center;
+    /* justify-content: space-evenly; */
+    flex-direction: column;
+    /* width: 53%; */
+    min-width: 75%;
+    background: black;
+}
+
+.chat-window {
+    display: flex;
+    padding-top: 1%;
+    flex-direction: column;
+    align-items: end;
+    justify-content: start;
+    min-height: 90%;
+    min-width: 98%;
+    background: #81ecec;
+}
+
+.joined {
+    display: flex;
+    /* margin: 5px; */
+    margin-left: 10%;
+    margin-bottom: 1%;
+    align-items: center;
+    justify-content: space-evenly;
+    min-height: 30px;
+    min-width: 80%;
+    background: #ff7675;
+    border-radius: 20px;
+}
+
+/* participent left the chat */
+.leave {
+    display: flex;
+    margin-left: 10%;
+    margin-bottom: 5px;
+    /* margin: 5px; */
+    align-items: center;
+    justify-content: space-evenly;
+    min-height: 30px;
+    min-width: 80%;
+    /* width: 52%; */
+    background: #ffeaa7;
+    border-radius: 20px;
+}
+
+.left-chat {
+    display: flex;
+    /* margin: 5px; */
+    margin-left: 1%;
+    margin-bottom: 1%;
+    /* padding: 5px; */
+    padding: 3px;
+    /* justify-content: center; */
+    align-items: flex-start;
+    background: #6c5ce7;
+    border-radius: 5px;
+    min-height: 30px;
+    /* float: left; */
+    /* clear: both; */
+    width: 70%;
+    word-break: break-all;
+}
+
+.right-chat {
+    display: flex;
+    /* margin-top: 10px; */
+    margin-left: 29%;
+    margin-bottom: 1%;
+    /* margin-right: 1px; */
+    /* margin-right: 6px; */
+    padding: 3px;
+    align-items: flex-start;
+    /* justify-content: center; */
+    background: #a29bfe;
+    border-radius: 5px;
+    min-height: 30px;
+    /* float: left; */
+    /* clear: both; */
+    width: 70%;
+    word-break: break-all;
+}
+
+.input-msg-window {
+    display: flex;
+    background: #00b894;
+    min-width: 98%;
+    min-height: 10%;
+    /* margin: 0%; */
+    /* margin: auto; */
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.msg-box {
+    display: flex;
+    border-radius: 5px;
+    min-width: 80%;
+    min-height: 45%;
+    background: #dfe6e9;
+    padding: 2px;
+}
