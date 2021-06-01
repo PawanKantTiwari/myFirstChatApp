@@ -1,3 +1,3 @@
 # myFirstChatApp
 
-Click here for a quick review -> https://pawankanttiwari.github.io/myFirstChatApp/
+Click here for a quick review -> https://lets-chat-guys.herokuapp.com/
