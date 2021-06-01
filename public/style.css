@@ -102,6 +102,7 @@ img {
     min-height: 90%;
     min-width: 98%;
     background: #81ecec;
+    overflow: auto;
 }
 
 .joined {
@@ -141,7 +142,7 @@ img {
     padding: 3px;
     /* justify-content: center; */
     align-items: flex-start;
-    background: #6c5ce7;
+    background: black;
     border-radius: 5px;
     min-height: 30px;
     /* float: left; */
