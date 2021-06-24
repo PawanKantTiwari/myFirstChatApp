@@ -22,7 +22,7 @@
     /* min-height: 100vh; */
     /* height: 100vh; */
     overflow: auto;
-    background: #55efc4;
+    background: antiquewhite;
 }
 
 .me {
@@ -75,7 +75,7 @@ img {
 .user {
     display: flex;
     min-width: 100%;
-    min-height: 20%;
+    min-height: 16%;
     /* margin: auto; */
     align-items: center;
     justify-content: space-evenly;
@@ -101,7 +101,7 @@ img {
     justify-content: center;
     min-height: 90%;
     min-width: 98%;
-    background: #81ecec;
+    background: #E6DCD2;
     overflow: auto;
 }
 
@@ -142,7 +142,7 @@ img {
     padding: 3px;
     /* justify-content: center; */
     align-items: flex-start;
-    background: #6c5ce7;
+    background: #FFFFFF;
     border-radius: 5px;
     min-height: 30px;
     /* float: left; */
@@ -161,7 +161,7 @@ img {
     padding: 3px;
     align-items: flex-start;
     /* justify-content: center; */
-    background: #a29bfe;
+    background: #E2FFC7;
     border-radius: 5px;
     min-height: 30px;
     /* float: left; */
