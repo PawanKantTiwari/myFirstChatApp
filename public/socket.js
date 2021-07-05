@@ -10,6 +10,7 @@ let joinedDiv = document.createElement("div");
 joinedDiv.classList.add("joined");
 joinedDiv.textContent = `${dataObj.username} joined this chat`;
 chatWindow.append(joinedDiv);
+chatWindow.scrollTop = chatWindow.scrollHeight;
 addInOnlineList(dataObj);
 })
 
@@ -29,6 +30,7 @@ let leftChat = document.createElement("div");
 leftChat.classList.add("left-chat");
 leftChat.textContent = chatObj.userName + " : " + chatObj.chat;
 chatWindow.append(leftChat);
+chatWindow.scrollTop = chatWindow.scrollHeight;
 })
 
 socket.on("online-List",function(userList){

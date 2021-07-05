@@ -161,13 +161,17 @@ img {
     padding: 3px;
     align-items: flex-start;
     /* justify-content: center; */
-    background: #E2FFC7;
+    background: rgb(0, 230, 118, 0.9);
     border-radius: 5px;
     min-height: 30px;
     /* float: left; */
     /* clear: both; */
     width: 70%;
     word-break: break-all;
+}
+
+.rightChatBackground{
+    
 }
 
 .input-msg-window {
