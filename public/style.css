@@ -59,6 +59,8 @@ img {
 .user-name {
     display: flex;
     min-height: 20%;
+    min-width: 50%;
+    word-break: break-all;
     margin: auto;
     align-items: center;
     justify-content: space-evenly;
@@ -69,17 +71,27 @@ img {
     display: flex;
     flex-direction: column;
     min-width: 100%;
+    min-height: 80%;
+    overflow: auto;
+}
+
+.online-list::-webkit-scrollbar {
+    display: none;
 }
 
 .user {
     display: flex;
     min-width: 100%;
     min-height: 16%;
-    /* margin: auto; */
     align-items: center;
     justify-content: space-evenly;
-    border-bottom: solid 1px gray;
+    padding: 1%;
+    overflow: auto;
 }
+
+div#em3l2kMJpBRvquKUAAAX {}
+
+div#em3l2kMJpBRvquKUAAAX {}
 
 .right-window {
     display: flex;
