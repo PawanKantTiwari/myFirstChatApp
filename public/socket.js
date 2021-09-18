@@ -51,6 +51,31 @@ socket.on("online-List",function(userList){
     }
 })
 
+// socket.on("online-List",function(userList){
+//     for(let i = 0; i < userList.length; i++){
+//         if(userList[i].id != socket.id){
+//             let userDiv = document.createElement('div');
+//             userDiv.classList.add('user');
+//             userDiv.setAttribute('id' , userList[i].id);
+
+//             userDiv.innerHTML =`<div class="user-image">
+//                                     <img src="./user.jpg" alt="">
+//                                 </div>
+//                                 <div class="user-name">${userList[i].username}</div>`
+//             onlineList.append(userDiv);
+//         }
+//     }
+// })
+
+
+
+
+
+
+
+
+
+
 function addInOnlineList(userObj){
     let userDiv = document.createElement('div');
     userDiv.classList.add('user');
