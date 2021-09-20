@@ -1,9 +1,8 @@
 let onlineList = document.querySelector('.online-list');
 
+
 //telling to the server that New User is connected
-
-
-username.classList.add("username");
+socket.emit("newUserConnected",userName);
 
 //appneding a new user into chat window
 socket.on("joinedUser",function(dataObj){
