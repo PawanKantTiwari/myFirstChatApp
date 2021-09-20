@@ -1,8 +1,9 @@
 let onlineList = document.querySelector('.online-list');
 
 //telling to the server that New User is connected
-socket.emit("newUserConnected",userName);
 
+
+username.classList.add("username");
 
 //appneding a new user into chat window
 socket.on("joinedUser",function(dataObj){
@@ -28,7 +29,7 @@ deleteFromOnlineList(dataObj.id);
 socket.on("leftchat", function(chatObj){
 let leftChat = document.createElement("div");
 leftChat.classList.add("left-chat");
-leftChat.textContent = chatObj.userName + " : " + chatObj.chat;
+leftChat.textContent = chatObj.userName + "👉" + chatObj.chat;
 chatWindow.append(leftChat);
 chatWindow.scrollTop = chatWindow.scrollHeight;
 })
